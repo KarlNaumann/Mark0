@@ -1,0 +1,6 @@
+seed:       0  # Random seed
+seed_init:  0  # Seed for the initial values
+N:          5000  # Number of firms
+T:          5000  # Total runtime
+Teq:        0 # Cutoff time
+tprint:     1  # print every nth period

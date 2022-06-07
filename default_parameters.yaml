@@ -1,0 +1,29 @@
+# Default parameters for the Mark-0 model when in the full employment phase
+# Without the presence of the central bank
+R:              2.0  # Firm: Hiring/firing rate (2017-12)
+alpha_gamma:    50   # Firm: loan rate effect on hire/fire (2017-13)
+gamma_0:        0.0  # Firm: baseline gamma (2017-13)
+r:              1.0  # Firm: adjustment ratio gamma_w / gamma_p (2015-18)
+gammap:         0.1  # Firm: price-adjustment size (2015-1)
+eta0m:          0.1  # Firm: baseline firing propensity (2017-12)
+wage_factor:    1.0  # Firm: wage adjustment to inflation (...)
+
+rho_star:       0.005  # CB: baseline interest rate (2017-3)
+phi_pi:         0.0    # CB: reaction to inflation (2017-3)
+phi_e:          0.0    # CB: reaction to employment (2017-3)
+pi_star:        0.002  # CB: inflation target (2017-3)
+e_star:         0.05   # CB: unemployment target (2017-3)
+
+theta:          2.0  # Bank: Default threshold (2015-16)
+f:              0.5  # Bank: bankruptcy effect on bank interest rates (2017-7)
+
+alpha_c:        4.0   # HH: real rate influence on consumption (2017-9)
+c_0:            0.5   # HH: Baseline propensity to consume c0 (2017-9)
+delta:          0.02  # HH: Dividend share (2017-9)
+beta:           2.0   # HH:  Intensity of choice (household demand)
+tau_meas:       0.5   # HH: expect pi weight of EWMA inflation (2018-7)
+tau_tar:        0.5   # HH: expect pi weight of CB target infl.(2018-7)
+
+phi:            0.1  # Economy: Revival probability per unit time
+taupi:          0.2  # Economy: Memory kernel for EWMA estimates (2017-4)
+y0:             0.5  # Economy: initial production
